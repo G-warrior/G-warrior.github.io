@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container bg-primary my-5 rounded col-6">
+        <h1 class="text-center">Todo List</h1>
+        <div class="todolist-container">
+            <div class="container textBox input-group">
+                <input class="form-control" id="inputText" type="text" placeholder="ingrese la tarea">
+                <button class="btn btn-success" id="btnIncluir"><i class="fas fa-plus"></i></button>
+                <button class="btn btn-info" id="btnEscuchar"><i class="fas fa-volume-up btnEscuchar"></i></button>
+            </div>
+            
+            <div class="container todolist-container tasks my-4  text-center">
+                <h1 class="text-center my-auto">Tareas</h1>
+                <!--div class="container tasks my-5">
+                    <input type="text" class="rounded border col-8" disabled>
+                    <button class="btn btn-warning" id="btnEditar" ><i class="far fa-edit"></i></button>
+                    <button class="btn btn-success" id="btnVoz"><i class="fas fa-volume-up"></i></button>
+                    <button class="btn btn-danger"  id="btnEliminar"><i class="fas fa-trash-alt"></i></button>
+                </div-->
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/Plugins/jquery-3.4.1.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
